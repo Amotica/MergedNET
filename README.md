@@ -3,6 +3,12 @@ The project investigates similarity layers for the one-shot learning tasks and p
 
 <img src="architecture.png" />
 
+
+The files config.py and siameseModelv2.py are required to run the codes. The config.py contain configuration parameters, which we sometimes override in the siameseModelv2.py file. The siameseModelv2.py file contains all the class(es) and methods to train and evaluate the model.
+To train the model ensure the parameter (eval = True) in the “if __name__ == '__main__':” is set to False.
+You should also ensure the datasets are downloaded from the respective websites and placed in a dataset folder (self-explanatory from the source codes).
+
+
 # Dataset used in these experiments
 
 <b>CUB-200-2011 </b> is a fine-grained dataset, which has 200 classes with a total of 11,788 images. We used a similar dataset split (100, 50 and 50 classes for training, validation and testing, respectively) to what was proposed in Chen et al. 2019.
