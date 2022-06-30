@@ -14,9 +14,16 @@ The <b>MiniImageNet</b> contains 100 randomly selected classes from the original
 The<b>CIFAR-100</b> dataset contains 100 classes with 600 images each. We followed the recommendation in in Chen et al. 2019 to split the dataset.
 
 # Minimum dependencies required to use these codes:
-Python 3.6.1
-Keras 2.0.6
-Tensorflow 1.3.0
-Numpy 1.13.3
-Pillow 5.1.0
-Opencv 3.2.0
+<ul>
+  <li>python=3.6.12</li>
+  <li>tensorboard=2.6.0</li>
+  <li>tensorflow-datasets=4.2.0</li>
+  <li>numpy=1.19.5</li>
+  <li>matplotlib=3.3.3</li>
+  <li>pillow=8.0.1</li>
+  <li>keras=2.3.1</li>
+  <li>keras-applications=1.0.8</li>
+  <li>keras-efficientnets=0.1.7</li>
+  <li>keras-preprocessing=1.1.2</li>
+  <li>keras-resnet=0.1.0</li>
+  </ul>
