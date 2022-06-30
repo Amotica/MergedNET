@@ -5,13 +5,13 @@ The project investigates similarity layers for the one-shot learning tasks and p
 
 # Dataset used in these experiments
 
-\textbf{CUB-200-2011} \cite{wah2011caltech} is a fine-grained dataset, which has 200 classes with a total of 11,788 images. It has been used in many fine-grain categorisation tasks and more recently to benchmark few-shot learning tasks. We used a similar dataset split (100, 50 and 50 classes for training, validation and testing, respectively) to what was proposed in Chen et al. \cite{chen2019multi}, and similar to \cite{zhou2018deep, snell2017prototypical, sung2018learning, chen2019closer, vinyals2016matching, mangla2020charting, kang2021relational} for a fair comparison.
+<b>CUB-200-2011 </b> is a fine-grained dataset, which has 200 classes with a total of 11,788 images. It has been used in many fine-grain categorisation tasks and more recently to benchmark few-shot learning tasks. We used a similar dataset split (100, 50 and 50 classes for training, validation and testing, respectively) to what was proposed in Chen et al. 2019.
 
-The \textbf{Caltech256} dataset \cite{griffin2007caltech} contains 30,607 real-world images. It has 257 classes, but for few-shot learning, the clutter class is removed. We have used a dataset split similar to \cite{sung2018learning, vinyals2016matching, zhou2018deep, chen2019multi}, which is 150, 56 and 50 classes for training, validation and testing, respectively.
+The <b>Caltech256 </b> dataset \cite{griffin2007caltech} contains 30,607 real-world images. It has 257 classes, but for few-shot learning, the clutter class is removed. We have used a dataset split similar to \cite{sung2018learning, vinyals2016matching, zhou2018deep, chen2019multi}, which is 150, 56 and 50 classes for training, validation and testing, respectively.
 
-The \textbf{MiniImageNet} \cite{vinyals2016matching} contains 100 randomly selected classes from the original ImageNet dataset with 600 images per class. We split the dataset according to \cite{chen2019multi, li2020revisiting, sung2018learning, hilliard2018few}, 64 training, 16 validation and 20 test classes. We have chosen this dataset because it is complex and used for many one-shot learning tasks.
+The <b>MiniImageNet</b> \cite{vinyals2016matching} contains 100 randomly selected classes from the original ImageNet dataset with 600 images per class. We split the dataset according to \cite{chen2019multi, li2020revisiting, sung2018learning, hilliard2018few}, 64 training, 16 validation and 20 test classes. We have chosen this dataset because it is complex and used for many one-shot learning tasks.
 
-The \textbf{CIFAR-100} dataset \cite{krizhevsky2009learning} contains 100 classes with 600 images each. We followed the recommendation in \cite{sung2018learning, vinyals2016matching, zhou2018deep, chen2019multi} to split that dataset into 64 training, 16 validation and 20 testing classes, respectively, which is also consistent with other papers that evaluated their one-shot learning task with this dataset.
+The<b>CIFAR-100</b> dataset \cite{krizhevsky2009learning} contains 100 classes with 600 images each. We followed the recommendation in \cite{sung2018learning, vinyals2016matching, zhou2018deep, chen2019multi} to split that dataset into 64 training, 16 validation and 20 testing classes, respectively, which is also consistent with other papers that evaluated their one-shot learning task with this dataset.
 
 # Minimum dependencies required to use these codes:
 Python 3.6.1
