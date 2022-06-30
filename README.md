@@ -1,5 +1,5 @@
 # MergedNET: A Simple Approach for One-Shot Learning in Siamese Networks based on Similarity Layers.
-MergedNET: A Simple Approach for One-Shot Learning in Siamese Networks based on Similarity Layers.
+The project investigates similarity layers for the one-shot learning tasks and proposes two frameworks for merging these layers into a network called MergedNet. We show that MergedNet improved classification accuracy compared with the baselines on all the four datasets used in our experiment. Our MergedNet network trained on the miniImageNet dataset generalises to other datasets. 
 
 <img src="architecture.png" />
 
