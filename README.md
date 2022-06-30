@@ -3,10 +3,13 @@ The project investigates similarity layers for the one-shot learning tasks and p
 
 <img src="architecture.png" />
 
+# Running the codes:
+<ul>
+<li>The files config.py and siameseModelv2.py are required to run the codes. The config.py contain configuration parameters, which we sometimes override in the siameseModelv2.py file. The siameseModelv2.py file contains all the class(es) and methods to train and evaluate the model.</li>
+<li>To train the model ensure the parameter (eval = True) in the “if __name__ == '__main__':” is set to False.</li>
+<li>You should also ensure the datasets are downloaded from the respective websites and placed in a dataset folder (self-explanatory from the source codes).</li>
+</ul>
 
-The files config.py and siameseModelv2.py are required to run the codes. The config.py contain configuration parameters, which we sometimes override in the siameseModelv2.py file. The siameseModelv2.py file contains all the class(es) and methods to train and evaluate the model.
-To train the model ensure the parameter (eval = True) in the “if __name__ == '__main__':” is set to False.
-You should also ensure the datasets are downloaded from the respective websites and placed in a dataset folder (self-explanatory from the source codes).
 
 
 # Dataset used in these experiments
